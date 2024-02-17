@@ -1,1 +1,1 @@
-Basic landing page project - used for leaning
+Basic landing page project - used for leaning. Will be following a tutorial on building a landing page to better understand web development.
