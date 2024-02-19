@@ -1,1 +1,1 @@
-Basic landing page project - used for leaning. Will be following a tutorial on building a landing page to better understand web development.
+Basic landing page project - used for learning. Will be following a tutorial on building a landing page to better understand web development. See https://www.freecodecamp.org/news/how-to-make-a-landing-page-with-html-css-and-javascript/ for the tutorial. Assets downloaded from the tutorial github, but code rebuilt by me
