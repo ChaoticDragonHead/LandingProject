@@ -73,6 +73,26 @@ nav {
     z-index: 1;
 }
 
+/* Note - hamburger does not display with any color anyways on my bowser */
+.hamburger {
+  display: none;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-link {
+  font-weight: var(--bold-font);
+}
+
 /* Dark theme */
 
 /* Dark theme ends */
