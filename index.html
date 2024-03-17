@@ -41,6 +41,16 @@
           ><span class="fist">&#x1F44A;</span>
         </h1>
       </a>
+
+          <!-- Dark/light theme switcher -->
+<div class="theme-switch">
+  <input type="checkbox" class="checkbox" id="checkbox"/>
+  <label for="checkbox" class="label">
+    <ion-icon name="partly-sunny-outline" class="sun"></ion-icon>
+    <ion-icon name="moon-outline" class="moon"></ion-icon>
+    <div class="switcher"></div>
+  </label>
+</div>
       <ul>
         <li class="nav-item">
           <a href="#about" class="nav-link" id="nav-link">About</a>
@@ -60,9 +70,10 @@
   <span class="bar"></span>
   <span class="bar"></span>
 </div>
+
 </nav>
 
-    <!-- Dark/light theme switcher -->
+
 
     <!-- Bars -->
 
@@ -164,11 +175,64 @@
 
     <!-- Jab TV Stakeholders -->
 
+    <section class="people" id="stakeholders">
+      <div class="stakeholders">
+        <div class="persons">
+          <div class="person-1">
+            <img src="assets/images/john.jpg" alt="John Doe">
+            <p class="name">John Doe</p>
+            <p class="role">Founder</p>
+          </div>
+          <div class="person-2">
+            <img src="assets/images/jane.jpg" alt="Jane Doe">
+            <p class="name">Jane Doe</p>
+            <p class="role">MD</p>
+          </div>
+          <div class="person-3">
+            <img src="assets/images/jnr.jpg" alt="John Doe Jnr">
+            <p class="name">John Doe JNR</p>
+            <p class="role">Head Analyst</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Email subscription -->
+
+    <section class="sub" id="sub">
+      <h3>Subscribe to our newsletter for updates</h3>
+      <form action="#">
+        <input
+          type="email"
+          name="email"
+          id="email-sub"
+          class="email-sub"
+          required
+        />
+        <input
+          type="submit"
+          value="Subscribe"
+          id="submit-btn"
+          class="submit-btn"
+        />
+      </form>
+</section>
 
     <!-- Social icons -->
 
+    <section class="social">
+      <h3>Connect with us on Social Media</h3>
+      <div class="socicons">
+        <a href="#"> <ion-icon name="logo-twitter"></ion-icon> </a>
+        <a href="#"> <ion-icon name="logo-instagram"></ion-icon> </a>
+        <a href="#"> <ion-icon name="logo-facebook"></ion-icon> </a>
+      </div>
+</section>
+
     <!-- Scroll to top button -->
+    <i class="scroll-up" id="scroll-up">
+      <img src="assets/icons/icons8-upward-arrow.png" class="socicon up-arrow" alt="up-arrow"/>
+    </i>
 
     <!-- Web page script -->
     <script src="assets/js/app.js"></script>
@@ -185,5 +249,6 @@
       // Simple lightbox initializer
       var lightbox = new SimpleLightbox(".stars-gallery a");
     </script>
+    <footer>&copy;2020. All rights reserved</footer>
   </body>
 </html>
